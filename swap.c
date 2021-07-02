@@ -5,7 +5,7 @@ void swap_max (int arr[],int l,int n)
 {
   int max=0;
   int ind=n;
-  for (int i=n;i<l;i++)
+  for (int i=0;i<l;i++)
   {
     if (max<arr[i])
     {
@@ -19,7 +19,7 @@ arr[n]=arr[ind];
 arr[ind]=temp;
 }
 
-void ssort (int arr[],int i)
+void ssort (int arr[],int l)
 {
   for(int i=0;i<l;i++)
   {
